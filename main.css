@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-left: 140px;
+    text-align: end;
+    font-size: 24px;
+    font: bold;;
+}
+
+
+section .container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 48px;
+    margin-left: 100px;
+}
+
+body {
+    background-image: url('./img/corinthians.jpeg');
+    background-size: 600px; 
+    background-repeat: no-repeat; 
+    padding: 100px;
+  }
+
+.container {
+    max-width: 1098px;
+    width: 100%;
+}
+
+
+form {
+    max-width: 380px;
+    padding: 50px;
+}
+
+
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input {
+    width: 150%;
+    display: block;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+button {
+    display: block;
+    width: 150%;
+    padding: 8px 0;
+    margin-top: 2px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+
+label.error {
+    color: red;
+}
